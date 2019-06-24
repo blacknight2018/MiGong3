@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Game">
+      <UniqueIdentifier>{446b798a-b14f-4bc4-8ba9-5ea8f9f79f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Game">
+      <UniqueIdentifier>{1e8bc2d4-8776-4b6e-9431-bdf8ac8ba7bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\AStar">
+      <UniqueIdentifier>{770e9793-58a0-450c-ad7c-b16d9184db4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AStar">
+      <UniqueIdentifier>{7e97f5ff-d0b5-4e8a-bbc4-9b645bd7a219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MapEdit">
+      <UniqueIdentifier>{31e396ae-2b61-47bf-b3ad-996ee9803772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\MapEdit">
+      <UniqueIdentifier>{646b1eca-2c38-42ed-8c76-c4d0058a8d0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MiGong3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RectChoose.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="myMap.h">
+      <Filter>头文件\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>头文件\AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEdit.h">
+      <Filter>头文件\MapEdit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MiGong3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RectChoose.Cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.Cpp">
+      <Filter>源文件\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="myMap.Cpp">
+      <Filter>源文件\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.Cpp">
+      <Filter>源文件\AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEdit.Cpp">
+      <Filter>源文件\MapEdit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MiGong3.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="MiGong3.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="LQ.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="BJ.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="START.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="timg.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
